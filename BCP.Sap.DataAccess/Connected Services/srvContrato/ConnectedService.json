@@ -1,0 +1,17 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://devcrs02:3007/CRSclic.AfiliacionIBK.Core/ServicioAfiliacionAuth.svc"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, srvContrato"
+    ],
+    "sync": true,
+    "targetFramework": "net5.0",
+    "typeReuseMode": "All"
+  }
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BCP.Sap.Microservicio.OperacionesDB</name>
+    </assembly>
+    <members>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.INFOCLIENTEController.InsertarCliente(BCP.Sap.Models.INFOCLIENTE.INFOCLIENTEInsertRequest)">
+            <summary>
+            Método que permite insertar clientes naturales en INFOCLIENTE
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.INFOCLIENTEController.ConsultarCliente(BCP.Sap.Models.INFOCLIENTE.INFOCLIENTEConsultaRequest)">
+            <summary>
+            Método que permite consultar clientes naturales en INFOCLIENTE.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.ActualizacionTarjeta(BCP.Sap.Models.SmartLink.TarjetaActualizacionRequest)">
+            <summary>
+            Método que permite actualizar los datos de una tarjeta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.DesafiliarCuenta(BCP.Sap.Models.SmartLink.TarjetaDesafiliacionCuentaRequest)">
+            <summary>
+            Método que permite actualizar los datos de una tarjeta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.ValidacionPin(BCP.Sap.Models.SmartLink.ValidacionPinRequest)">
+            <summary>
+            Método que permite validar el pin de una trajeta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.BloqueoTarjeta(BCP.Sap.Models.SmartLink.TarjetaBloqueoRequest)">
+            <summary>
+            Método que permite registrar el bloqueo de una tarjeta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.CambioTarjeta(BCP.Sap.Models.SmartLink.TarjetaCambioRequest)">
+            <summary>
+            Método que permite registrar el cambio de una tarjeta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SmartLinkController.OperacionCuenta(BCP.Sap.Models.SmartLink.CuentaRegistroRequest)">
+            <summary>
+            Método que permite realizar operacion de cuenta en SmartLink.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SwampController.ConsultaIDCCliente(BCP.Sap.Models.Swamp.SwampClienteGuidRequest)">
+            <summary>
+            Método que permite obtener datos del cliente por guid.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SwampController.RegistroSwampCuenta(BCP.Sap.Models.Swamp.RegistroSwampCuentaRequest)">
+            <summary>
+            Método que permite registrar cuenta en SWAMP.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SwampController.RegistroSwampCuentaFirma(BCP.Sap.Models.Swamp.RegistroSwampCuentaFirmaRequest)">
+            <summary>
+            Método que permite registrar los clientes en SWAMP.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BCP.Sap.Microservicio.OperacionesDB.Controllers.SwampController.RegistroSwampCuentaProducto(BCP.Sap.Models.Swamp.RegistroSwampCuentaProductoRequest)">
+            <summary>
+            Método que permite registrar los productos en SWAMP.
+            </summary>
+            <param name="request">Objeto con los datos necesarios para realizar la transacción.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

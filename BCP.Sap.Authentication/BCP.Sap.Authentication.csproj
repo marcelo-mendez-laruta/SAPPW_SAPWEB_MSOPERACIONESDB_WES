@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCP.Sap.Business\BCP.Sap.Business.csproj" />
+    <ProjectReference Include="..\BCP.Sap.Models\BCP.Sap.Models.csproj" />
+  </ItemGroup>
+
+</Project>

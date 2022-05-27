@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BCP.Sap.Models</name>
+    </assembly>
+    <members>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteJuridico.idcNumero">
+            <summary>
+            Parte numérica del IDC del cliente.
+            </summary>
+            <required>true</required>
+            <example>01020435</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteJuridico.idcTipo">
+            <summary>
+            Tipo de documento del IDC del cliente.
+            </summary>
+            <example>R</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteJuridico.idcExtension">
+            <summary>
+            Extensión del documento IDC del cliente.
+            </summary>
+            <example>022</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteNatural.idcNumero">
+            <summary>
+            Parte numérica del IDC del cliente.
+            </summary>
+            <required>true</required>
+            <example>06036920</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteNatural.idcTipo">
+            <summary>
+            Tipo de documento del IDC del cliente.
+            </summary>
+            <example>Q</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteNatural.idcExtension">
+            <summary>
+            Extensión del documento IDC del cliente.
+            </summary>
+            <example>LP</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.IdentificadorClienteNatural.idcComplemento">
+            <summary>
+            Complemento del IDC del cliente si se trata de una Persona Natural, por defecto será “00”.
+            </summary>
+            <example>00</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.SapRequest.operation">
+            <summary>
+            Código de operacion provisto por la aplicacion.
+            </summary>
+            <required>true</required>
+            <example>1234</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.Usuario.usuarioExtra">
+            <summary>
+            Matricula de un usuario de extra con acceso a CONSIST.
+            </summary>
+            <required>true</required>
+            <example>S38994</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.Usuario.sucursal">
+            <summary>
+            Código de la sucursal a la cual pertenece el usuario de EXTRA.
+            </summary>
+            <required>true</required>
+            <example>201</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.Usuario.agencia">
+            <summary>
+            Código de la agencia a la cual pertenece el usuario de EXTRA.
+            </summary>
+            <required>true</required>
+            <example>204</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Comunes.Usuario.guid">
+            <summary>
+            Guid de sesión de SWAMP.
+            </summary>
+            <required>true</required>
+            <example>1b4d8363-4d0d-470a-998d-380ec1ac0efc</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Swamp.RegistroSwampCuentaFirmaRequest.operation">
+            <summary>
+            Código de operacion provisto por la aplicacion.
+            </summary>
+            <required>true</required>
+            <example>1234</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Swamp.RegistroSwampCuentaProductoRequest.operation">
+            <summary>
+            Código de operacion provisto por la aplicacion.
+            </summary>
+            <required>true</required>
+            <example>1234</example>
+        </member>
+        <member name="P:BCP.Sap.Models.Swamp.SwampClienteGuidRequest.guid">
+            <summary>
+            Guid de Swamp.
+            </summary>
+            <required>true</required>
+            <example>00007be9-beaf-4229-abeb-e0d5fbc34cf8</example>
+        </member>
+    </members>
+</doc>

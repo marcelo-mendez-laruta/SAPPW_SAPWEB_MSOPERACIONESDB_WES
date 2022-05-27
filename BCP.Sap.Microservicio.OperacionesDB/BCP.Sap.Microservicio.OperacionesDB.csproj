@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\SAP\SAPPW_SAPWEB_MSOPERACIONESDB_WES\BCP.Sap.Microservicio.OperacionesDB\BCP.Sap.Microservicio.OperacionesDB.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\SAP\SAPPW_SAPWEB_MSOPERACIONESDB_WES\BCP.Sap.Microservicio.OperacionesDB\BCP.Sap.Microservicio.OperacionesDB.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BCP.Framework.Logs\BCP.Framework.Logs.csproj" />
+    <ProjectReference Include="..\BCP.Sap.Authentication\BCP.Sap.Authentication.csproj" />
+    <ProjectReference Include="..\BCP.Sap.Business\BCP.Sap.Business.csproj" />
+    <ProjectReference Include="..\BCP.Sap.Models\BCP.Sap.Models.csproj" />
+  </ItemGroup>
+
+</Project>
